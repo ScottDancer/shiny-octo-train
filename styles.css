@@ -1,1 +1,32 @@
+.site {
+  background-color: #006994 ;
+}
 
+.h1 {
+  color: #def3f6  ;
+}
+
+.h2 {
+  color: #1da2d8 ;
+}
+
+.h3 {
+  color: #7fcdff;
+}
+
+.h4 {
+  color: #76b6c4 ;
+}
+
+.h5 {
+  color: #064273 ;
+}
+
+.h6 {
+  color: #023C4D;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 60px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
