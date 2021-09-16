@@ -1,0 +1,13 @@
+.site {
+  background: rgb(13,8,96);
+background: radial-gradient(circle, rgba(13,8,96,1) 0%, rgba(44,44,191,1) 32%, rgba(0,212,255,1) 100%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #ED2BE1;
+  font-size: 60px;
+  text-shadow: 1px 1px 1px lightblue, 
+  3px 3px 5px white; 
+  text-align: center;
+
+}
