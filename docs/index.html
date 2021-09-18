@@ -1,18 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hold me closer</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body class="site">
-  <h1 class="h1">Life is a mystery</h1>
-  <h1 class="h2">Everyone must stand alone</h1>
-  <h1 class="h3">I hear you call my name</h1>
-  <h1 class="h4">And it feels like home</h1>
-  <h1 class="h5">You and me we were made to swing</h1>
-  <h1 class="h6">Swing? I like that!</h1> 
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="homeStyles.css" />
+    <title>Scott Patrick Dancer</title>
+  </head>
+  <body>
+    <section className="showcase">
+      <header>
+        <h2 className="logo"><img src="brownlogo.png" alt="brown-logo"></li></h2>
+        <div className="toggle"></div>
+      </header>
+
+      <video src="birdrock.mp4" muted loop autoplay></video>
+
+      <div className="overlay"></div>
+
+    <div className="text">
+      <h2>Scott Patrick Dancer</h2>
+      <h3>artist & fullstack web developer</h3>
+      <p>
+        Ideas are all abound and always being explored in ways that push
+        boundaries and nurture new material
+      </p>
+      <a href="#">Create with Me</a>
+    </div>
+
+    <ul className="social">
+      <li>
+        <a href="#"><img src="facebook.png" alt="facebook-icon"></a>
+      </li>
+      <li>
+        <a href="#"><img src="linked-in.png" alt="linked-in-icon"></a>
+      </li>
+        <li>
+          <a href="#"><img src="git-hub.png" alt="git-hub-icon"></a>
+        </li>
+    </ul>
+    </section>
+
+    <div className="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a class="nav-link" href="resume.html">Resume</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+
+
+    <script>
+      const menuToggle = document.querySelector('.toggle')
+      const showcase = document.querySelector('.showcase')
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+      })
+    </script>
+  </body>
 </html>
