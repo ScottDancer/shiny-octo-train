@@ -208,7 +208,11 @@ body {
             font-weight: 500;
             padding-top: 2%;
             padding-bottom: 2%;
-          
+          }
+
+          .projectWrap p {
+            /* color:lightblue; */
+        
           }
 
 
