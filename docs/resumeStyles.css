@@ -311,10 +311,7 @@ h3 ~ p {
   background-size: cover;
   background-position: center left;
 
-  /* background-attachment: fixed; */
 
-  /* *----I can change to center right if I want to later----* */
-  /* background-position: center right; */
 }
 
 .educationLogos {
