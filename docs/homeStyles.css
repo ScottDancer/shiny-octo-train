@@ -82,7 +82,10 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background:#FAD9BE;
+  /* background:#FAD9BE; */
+
+  /* background:#ACAFF6; */
+  background: #FFE7BA;
   mix-blend-mode: overlay;
  }
 
@@ -96,7 +99,10 @@
    font-weight: 800;
    line-height: 1em;
    text-transform: uppercase;
-   color: #947735;
+   /* color: #947735; */
+   color: #4C8087;
+      /* color: #544E48; */
+      /* color: #485154; */
  }
 
  .text h3 {
@@ -104,15 +110,19 @@
   font-weight: 700;
   line-height: 1em;
   text-transform: uppercase;
-   color: #947735;
+  /* color: #947735; */
+  /* color: #877D74; */
+  /* color: #3B332D; */
+  color: #3D686E;
 }
 
 .text p {
   font-size: 1.1em;
   margin: 20px 0;
-  font-weight: 400;
+  font-weight: 500;
   max-width: 700px;
-  color: #3B3433; 
+  /* color: #3B332d;  */
+   color: #3B332D;
 }
 
 .text a {
